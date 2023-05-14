@@ -1,6 +1,11 @@
 # recruiting-webapp-character
 React coding test
 
+# What is done
+- Step 1 to 4 is complete
+- used redux to store shared data
+- created separate components
+
 # Create a repository from this template
 - Click on `Use this template` dropdown on this repo page.
 - select `Create a new repository`

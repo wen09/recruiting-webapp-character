@@ -27,9 +27,11 @@
 }
 
 .App-section {
-  flex: 1 1 0;
+  /* flex: 1 1 0; */
   background-color: hsl(220deg 13% 13%);
   color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-link {

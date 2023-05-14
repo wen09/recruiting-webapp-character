@@ -1,0 +1,14 @@
+.class-card {
+    border: 10px solid black;
+}
+
+.class-name-met {
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.class-name {
+    color: rgb(124, 128, 128);
+    padding: 10px;
+}

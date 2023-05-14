@@ -1,0 +1,11 @@
+.attribute-card {
+    border: 10px solid black;
+}
+
+.card-title {
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+.attribute-item {
+    text-align: left;
+    display: flex;
+}
+
+.attribute-item div {
+    margin: 10px;
+}
+
+.attribute-title {
+    font-weight: bold;
+}
+
+button {
+    margin: 5px 10px;
+}

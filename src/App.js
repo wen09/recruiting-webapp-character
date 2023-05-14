@@ -1,24 +1,25 @@
-import { useState } from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 import './App.css';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
+import AttributeList from './components/AttributeList/AttributeList';
+import ClassList from './components/ClassList/ClassList';
+import AttributeValueDisplay from './components/AttributeValueDisplay';
 
 
 function App() {
-  const [num, setNum] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React Coding Exercise</h1>
-      </header>
-      <section className="App-section">
-        <div>
-          Value:
-          {num}
-          <button>+</button>
-          <button>-</button>
-        </div>
-      </section>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <header className="App-header">
+          <h1>React Coding Exercise</h1>
+        </header>
+        <section className="App-section">
+          <AttributeList />
+          <ClassList />
+          <AttributeValueDisplay />
+        </section>
+      </div>
+    </Provider>
   );
 }
 
